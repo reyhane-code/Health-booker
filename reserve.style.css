@@ -1,0 +1,81 @@
+@import url("https://v1.fontapi.ir/css/Vazir");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir, cursive;
+}
+
+h2 {
+  color: #4ea323;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.time {
+  margin: 5px;
+}
+
+.des {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.des p {
+  margin: 5px 10px;
+}
+
+.option {
+  border: 1px solid #74d046ae;
+  background-color: #69c73aae;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0.5rem;
+}
+
+.option:hover {
+  background-color: #4ea323;
+  color: white;
+  cursor: pointer;
+}
+
+.form {
+  width: 40%;
+  height: 50vh;
+  background-color: rgb(244, 244, 244);
+  box-shadow: 1px 1px 50px -1px rgba(18, 17, 17, 0.216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.form-item {
+  width: 60%;
+  height: 40px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+.pay {
+  width: 30%;
+  padding: 10px;
+  background-color: rgba(4, 88, 4, 0.689);
+  color: white;
+}
+
+body {
+  background-image: url("./assets/pattern.webp");
+}
+.supprot{
+  width: 25%;
+  height: 30vh;
+  padding:5px;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./doctors.style.css" />
+    <link rel="stylesheet" href="./shared.style.css" />
+    <title>Doctors List</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/user-doctor-solid.svg"
+    />
+  </head>
+  <body dir="rtl">
+    <div class="navbar flex justify-between">
+      <div class="navbar-items flex justify-center align-center">
+        <div class="navbar-item">
+          <a href="index.html" class="home"> Health Booker </a>
+          <i class="fa-solid fa-house"></i>
+        </div>
+
+        <div class="navbar-item dropdown">
+          <i class="fa-solid fa-bars icon"></i>
+          <div class="dropdown-content">
+            <a href="#">درباره ما</a>
+            <a href="#">قوانین و مقررات</a>
+            <a href="#">پرسش های متداول</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          نوبت دهی آنلاین
+          <i class="fa-solid fa-wifi icon"></i>
+        </div>
+
+        <div class="navbar-item">
+          مشاوره تلفنی
+          <i class="fa-solid fa-phone icon"></i>
+        </div>
+        <div class="navbar-item login">
+          ثبت نام / ورود کاربران
+          <i class="fa-solid fa-user-plus icon"></i>
+        </div>
+        <div class="navbar-item">
+          ثبت نام پزشکان
+          <i class="fa-solid fa-stethoscope icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="container flex flex-col">
+      <div class="cards flex flex-wrap justify-between">
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر مهران رحیمی</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              تخصص دندانپزشکی کودکان
+            </div>
+            <div class="location flex flex-col justify-between">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                شیراز - شیراز، خیابان قصرالدشت، سه راه گودگردی، جنب بیمارستان
+                فرهمند فر
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/rahimi.jpg" alt="Dr. Rahimi" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر بهمن پوراقدم</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              پزشک دندانپزشک</div>
+            <div class="location flex justify-between flex-wrap">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                تهران، تهران، خیابان فرشته، مریم غربی، کویین سنتر، واحد 303
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/poor.jpg" alt="Dr. Aghdam Poor" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر داریوش رمضان زاده</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              پزشک دندانپزشک</div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                شیراز، زرهی، بعد از درمانگاه محمد رسول الله، مجتمع پزشکان سینا،
+                طبقه سوم
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img
+              class="image"
+              src="./assets/ramezan.jpg"
+              alt="Dr. Ramezan Zadeh"
+            />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر محسن تهمتن</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              تخصص ارتودنسی
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                آدرس: شیراز، شیراز، بلوار میرزای شیرازی، جنب پارک علوی، نبش کوچه
+                9
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn"href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/tahamtan.jpg" alt="Dr. Tahamtan" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر ساناز معصومی</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              تخصص مغز و اعصاب (نورولوژی)
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                تهران، تهران، خیابان شریعتی، پایین‌تر از مترو شریعتی، کوچه
+                شریفی، پلاک 6
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/maasomi.jpg" alt="Dr. Maasomi" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر محمود ضمیریان</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              فوق تخصص قلب و عروق
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                شیراز، شیراز، قصردشت، کوچه 74 قصردشت، جنب بانک ملت، ساختمان نگین
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/mahmood.jpg" alt="Dr. Zamirian" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر فرهاد عبدالکریمی</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              فوق تخصص قلب و عروق
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                بندرعباس، بندرعباس، خیابان مرادی، ساختمان پزشکان پارسیان، طبقه
+                دوم
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/abdol.jpg" alt="Dr. AbdolKarimi" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر عاطفه فرامرزی</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              تخصص ارتودنسی
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                تهران، تهران، کامرانیه جنوبی، نرسیده به بلوار اندرزگو، کوچه
+                پیروز، پلاک 14
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img
+              class="image"
+              src="./assets/faramarzi.jpg"
+              alt="Dr. Faramarzi"
+            />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر تورج مکرمی</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              متخصص پوست، مو، زیبایی
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                تهران، تهران، پاسداران، بوستان نهم (جعفری)، پلاک 121، طبقه 5،
+                واحد 21
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/mokarami.jpg" alt="Dr. Mokarami" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر ماندانا روزی طلب</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              تخصص زنان، زایمان و نازایی
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                شیراز، شیراز، خیابان زند، رو به روی بیمارستان شهید فقیهی،
+                ساختمان کیمیا
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/roozi.jpg" alt="Dr. Roozi Talab" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر عفت زادسر</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              تخصص زنان، زایمان و نازایی
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                تهران، تهران، چهارراه پاسداران، اول دولت، نبش کوچه نوباوه، پلاک
+                3
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn"href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img class="image" src="./assets/zadsar.jpg" alt="Dr. Zadsar" />
+          </div>
+        </div>
+
+        <div class="card flex align-center justify-between">
+          <div class="info flex flex-col">
+            <div class="title">دکتر انسیه ایزدپناه</div>
+            <div class="subtitle">
+              <i class="fa-solid fa-user-doctor" style="font-size: 1rem"></i>
+              تخصص تصویربرداری (رادیولوژی)
+            </div>
+            <div class="location flex justify-between flex-col">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+                شیراز، خیابان اردیبهشت غربی، ساختمان نیکان، طبقه 1
+              </p>
+            </div>
+            <button class="reserve">
+              <a class="btn" href="./reserve.html">رزرو نوبت</a>
+            </button>
+          </div>
+          <div>
+            <img
+              class="image"
+              src="./assets/izad panah.jpg"
+              alt="Dr. EezadPanah"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footer flex justify-center align-center">
+        <div class="footer-item">
+          <h3>درباره ما</h3>
+          <p>
+            ما یک تیم متخصص در زمینه رزرو نوبت دکتر هستیم که با هدف سهولت و
+            راحتی بیشتر برای بیماران و همچنین دکتران، این سرویس را ارائه
+            می‌دهیم. ما با ارائه یک پلتفرم آنلاین قدرتمند، به بیماران این امکان
+            را می‌دهیم تا به راحتی و با سرعت نوبت دکتر خود را رزرو کنند. هدف ما
+            از این کار، بهبود دسترسی به خدمات پزشکی و کاهش زمان انتظار برای
+            بیماران است. همچنین، با فراهم کردن گزینه‌های مختلف پزشکان و تخصص‌های
+            مختلف، سعی داریم تا نوبت دکتر مناسب برای هر فرد را فراهم کنیم. تلاش
+            ما بر این است که تجربه‌ای ساده، سرعت و بهبود یافته در فعالیت‌های
+            پزشکی را به شما ارائه دهیم.
+          </p>
+        </div>
+        <div class="footer-item">
+          <h3>راه های ارتباط با ما</h3>
+          <div class="call">
+            <p>
+              <i class="fa-solid fa-envelope icon"></i>
+              ایمیل: HealthBooker@gamil.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone icon"></i>
+              شماره تماس : 0917777777
+            </p>
+          </div>
+        </div>
+        <div class="footer-item">
+          <img src="./assets/mellat.webp" alt="" class="footer-img">
+          <img src="./assets/enamad.webp" alt="" class="footer-img">
+          <img src="./assets/samandehi.webp" alt="" class="footer-img">
+          <img src="./assets/etehadie-logo.webp" alt="" class="footer-img">
+          <img src="./assets/saman-kish-logo.webp" alt="" class="footer-img">
+
+        </div>
+
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/73ffb91149.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

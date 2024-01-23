@@ -1,0 +1,71 @@
+.cards {
+  width: 100%;
+  padding: 1vh;
+}
+
+.card {
+  width: 45%;
+  height: 30vh;
+  box-shadow: 1px 1px 20px -1px rgba(18, 17, 17, 0.216);
+  color: black;
+  text-align: right;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 2vh auto;
+}
+
+.info {
+  width: 80%;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  width: 50%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.subtitle {
+  color: rgba(71, 68, 68, 0.545);
+  font-size: 0.9rem;
+  margin: 5px;
+}
+
+.location {
+  font-size: .9rem;
+  width: max-content;
+  border: rgba(128, 128, 128, 0.163) solid 1px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.reserve {
+  width: 30%;
+  font-size: 1.1rem;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #59a931;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.reserve:hover {
+  cursor: pointer;
+  background-color: #67b142;
+}
+
+.btn {
+  color: #fff;
+}
